@@ -52,3 +52,14 @@ puts !true
 name = "Yukio"
 puts name.empty?
 puts name.include?("u")
+
+# unless
+n = 1
+if !n.zero?
+    puts "nは0ではないよ"
+end
+
+#　上記をunlessで(ifの逆)
+unless n.zero?
+    puts "nは0ではないよ"
+end
