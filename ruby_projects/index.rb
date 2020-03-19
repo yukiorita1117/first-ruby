@@ -40,3 +40,15 @@ puts 1 + "1".to_i
 puts 1 + "1.1".to_f
 
 puts "Number is " + 1.to_s
+
+# n = n + 1
+n = 1
+puts n += 1
+n = 2
+puts n -= 1
+
+puts !true
+
+name = "Yukio"
+puts name.empty?
+puts name.include?("u")
