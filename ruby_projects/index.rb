@@ -82,3 +82,42 @@ elsif age >= 6 && age < 12
 else
     puts 1000
 end
+
+# メソッド　def
+def hello_world
+    puts "ハローワールド"
+end
+
+hello_world
+
+def add(a,b)
+    puts  a + b
+end
+
+add(2,5)
+# 上下どちらでも行けるよね
+def add(a,b)
+  a + b
+end
+
+puts add(2,5)
+
+# rubyはメソッドないのものをreturnなしで返してくれる
+
+# FizzBuzz
+def fizz_buzz(num)
+    if num % 15 == 0
+        "FizzBuzz"
+    elsif num % 5 == 0
+        "Buzz"
+    elsif num % 3 == 0
+        "Fizz"
+    else
+        "#{num}"
+    end
+end
+
+arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+for num in arr do
+    puts fizz_buzz(num)
+end
