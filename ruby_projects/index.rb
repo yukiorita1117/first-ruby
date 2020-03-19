@@ -34,3 +34,9 @@ puts s.upcase
 puts s
 # 破壊的メソッド 内容が永続的に変わるもの
 puts s.upcase!
+
+puts 1 + "1".to_i
+
+puts 1 + "1.1".to_f
+
+puts "Number is " + 1.to_s
