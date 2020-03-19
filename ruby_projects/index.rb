@@ -63,3 +63,22 @@ end
 unless n.zero?
     puts "nは0ではないよ"
 end
+
+name = "yukio"
+case name
+
+when "yukio"
+    puts "エンジニア"
+when "nobuo"
+    puts "新聞記者"
+end
+
+age = 3
+
+if age >= 12
+    puts 5000
+elsif age >= 6 && age < 12
+    puts 2500
+else
+    puts 1000
+end
