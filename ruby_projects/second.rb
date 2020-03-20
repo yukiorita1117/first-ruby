@@ -35,3 +35,32 @@ p s.sort
 
 # つまりlengthのこと
 p s.size
+
+puts "----------"
+
+# Hash
+# { key => value} jsのオブジェクト的なもの
+h = {}
+p h
+
+yukio = {"name" => "Yukio", "birthplace" => "fukuoka"}
+p yukio
+# 要素追加
+yukio["age"] = 26
+p yukio
+yukio.delete("age")
+p yukio
+
+# Hashをsymbolで扱う
+mituo = {name: "Mituo" , birthplace: "Osaka"}
+p mituo
+p mituo[:name]
+mituo[:age] = 50
+p mituo
+# 値の変更
+mituo[:age]= 52
+mituo.delete(:birthplace)
+p mituo
+
+# hashから要素を取り出す
+
