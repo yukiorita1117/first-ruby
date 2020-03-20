@@ -114,6 +114,7 @@ def fizz_buzz(num)
         "Fizz"
     else
         "#{num}"
+        # num.to_s でもいいね
     end
 end
 
@@ -121,3 +122,6 @@ arr = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 for num in arr do
     puts fizz_buzz(num)
 end
+
+puts "アイウエオリタ"
+print "アイウエオリタ"
