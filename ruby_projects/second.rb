@@ -63,4 +63,7 @@ mituo.delete(:birthplace)
 p mituo
 
 # hashから要素を取り出す
+score = {a: 20,b: 30, c: 40}
 
+# valueのみ全て取り出し。
+score.each{ |key,value| puts value }
