@@ -123,5 +123,19 @@ for num in arr do
     puts fizz_buzz(num)
 end
 
+# ほぼ同じだが、degubではpメソッド使う
 puts "アイウエオリタ"
 print "アイウエオリタ"
+p "アイウエオリタ"
+
+a = [1,2,3,4,"あああ",[5,6]]
+#　配列内の配列も展開されて出てくる
+puts a[5]
+puts "-----"
+puts a.reverse
+# でもこれはtrueなんだ
+puts a.include?([5,6])
+puts "-----"
+# 末尾!で破壊的メソッドにできる
+a.shuffle!
+puts a
