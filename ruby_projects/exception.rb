@@ -16,5 +16,4 @@ rescue => ex
 ensure
     # 例外の発生の有無にかかわらず通る処理
     puts "終了"
-
 end
